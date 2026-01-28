@@ -1,16 +1,18 @@
-# remote_demo
+#This is a Flutter application that demonstrates API integration using the JSONPlaceholder REST API.
+#The app fetches a list of posts from a remote server and displays them in a scrollable list.
+#Users can also create a new post by sending data to the API.
 
-A new Flutter project.
 
-## Getting Started
+#Features
 
-This project is a starting point for a Flutter application.
+#Fetches posts from a remote REST API
 
-A few resources to get you started if this is your first Flutter project:
+#Displays posts in a list view
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+#Sends (POST) data to the API
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+#Uses FutureBuilder for asynchronous data handling
+
+#Clean separation of concerns using Repository pattern
+
+![App Screenshots](assets/screenscreenshots/img.png)
